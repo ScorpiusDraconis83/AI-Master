@@ -10,14 +10,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-7xl px-6 pt-20">
+      <main className="mx-auto max-w-7xl px-6 pt-20">
         <HeroSection />
         <FeatureSection />
         <Workflow />
         <Pricing />
         <Testimonials />
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </>
   );
 }
